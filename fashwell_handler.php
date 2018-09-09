@@ -1,7 +1,7 @@
 <?php
 //makes the APi call to FashWell and returns the JSON file;
 function send_fashwell_request_vs($image_url) {
-    $host = 'https://api.fashwell.com/visual/v1/bllush/search/url';
+    $host = 'xxxxxxxx';
     $api_token = 'xxxxxxxx';
     $post = array(
        'url' => $image_url,
